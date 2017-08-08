@@ -11,7 +11,7 @@ import br.com.controlhnd.model.interfaces.IEntity;
  * @author Windows 7
  *
  */
-public abstract class AEntity implements IEntity {
+public abstract class AEntity<T> implements IEntity {
 
 	private static final long serialVersionUID = 1L;
 
